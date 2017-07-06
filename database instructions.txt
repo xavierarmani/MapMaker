@@ -1,0 +1,11 @@
+create table location (loc_name varchar(20) not null unique,   loc_lat float,   loc_long float, primary key(loc_name));
+
+
+insert into location values ("Chicago",41.8369,87.6847);
+insert into location values ("Cleveland",41.4822,81.66997);
+insert into location values ("Detroit",42.3314,83.0458);
+insert into location values ("Dubuque",42.5043,90.6869);
+insert into location values ("Indianapolis",39.791,86.148);
+insert into location values ("Milwaukee",43.05,87.95);
+insert into location values ("Minneapolis",44.9778,93.265);
+insert into location values ("St. Louis",38.6272,90.1978);
